@@ -1,0 +1,79 @@
+/* Phân trang */
+#pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin: 32px 0;
+}
+
+#pagination button {
+  padding: 8px 18px;
+  border-radius: 6px;
+  border: none;
+  background: #00e0ff;
+  color: #181c24;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#pagination button:disabled {
+  background: #888;
+  color: #fff;
+  cursor: not-allowed;
+}
+
+/* Loading indicator */
+#loading {
+  position: fixed;
+  z-index: 2000;
+  left: 0; top: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spinner {
+  border: 6px solid #eaf6ff;
+  border-top: 6px solid #00e0ff;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  100% { transform: rotate(360deg); }
+}
+
+/* Modal chi tiết phim */
+.modal {
+  position: fixed;
+  z-index: 1000;
+  left: 0; top: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: #181c24;
+  padding: 32px 24px;
+  border-radius: 12px;
+  max-width: 90vw;
+  max-height: 90vh;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  overflow-y: auto;
+}
+
+.close-modal {
+  position: absolute;
+  top: 12px; right: 18px;
+  font-size: 2rem;
+  color: #00e0ff;
+  cursor: pointer;
+}

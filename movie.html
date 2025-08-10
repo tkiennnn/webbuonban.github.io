@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Xem phim</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="extra.css" />
+</head>
+<body>
+  <header>
+    <div class="logo"><a href="index.html" style="color:inherit;text-decoration:none;">Phim sec</a></div>
+  </header>
+  <main>
+    <div id="movie-player" style="margin: 32px 0; text-align:center;">
+      <button id="show-video-btn" style="padding:12px 32px;font-size:1.2rem;border-radius:8px;background:#00e0ff;color:#181c24;font-weight:bold;cursor:pointer;border:none;">Xem phim</button>
+      <div id="video-container" style="display:none;margin-top:24px;">
+      </div>
+    </div>
+    <div id="movie-detail" style="max-width:600px;margin:auto;">
+      <img id="detail-img" src="" alt="" style="max-width:200px;float:left;margin-right:24px;border-radius:8px;" />
+      <h2 id="detail-title"></h2>
+      <p id="detail-genre"></p>
+      <p id="detail-desc"></p>
+      <div style="clear:both"></div>
+    </div>
+  </main>
+  <script src="movie.js"></script>
+</body>
+</html>
