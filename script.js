@@ -26,7 +26,7 @@ const movies = [
     genre: ["Tình cảm", "Hài hước"],
     img: "https://dbk.vn/uploads/ckfinder/images/tranh-anh/anh-free-fire-9.jpg",
     desc: "Bộ phim nói về tình cảm giữa những người chơi, họ gặp nhau trong game free fire và sau một thời gian họ nảy sinh tình cảm với nhau. Cứ như vậy họ trở thành một cặp",
-    video: "https://disk.yandex.com/i/3U1wi8ALpFQY8g",
+    video: "videos/video3.mp4",
   },
 
 ];
