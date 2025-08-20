@@ -106,7 +106,6 @@ function filterMovies() {
   currentPage = 1;
   renderMovies();
 }
-
 // Khởi tạo
 window.onload = function() {
   showLoading(true);
