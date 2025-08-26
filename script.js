@@ -31,7 +31,7 @@ const movies = [
   {
     title: "Nhạc ru ngủ cực căng",
     genre: ["Tình cảm", "Hài hước"],
-    img: "https://dbk.vn/uploads/ckfinder/images/tranh-anh/anh-free-fire-9.jpg",
+    img: "https://inkythuatso.com/uploads/thumbnails/800/2023/02/hinh-anh-chuc-ngu-ngon-che-bua-5-10-09-16-29.jpg",
     desc: "Nhạc giúp trẻ ngủ ngon hơn",
     video: "videos/video5.mp4",
   },
