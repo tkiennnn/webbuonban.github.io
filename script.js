@@ -28,6 +28,13 @@ const movies = [
     desc: "Bộ phim nói về tình cảm giữa những người chơi, họ gặp nhau trong game free fire và sau một thời gian họ nảy sinh tình cảm với nhau. Cứ như vậy họ trở thành một cặp",
     video: "videos/video3.mp4",
   },
+  {
+    title: "Nhạc ru ngủ cực căng",
+    genre: ["Tình cảm", "Hài hước"],
+    img: "https://dbk.vn/uploads/ckfinder/images/tranh-anh/anh-free-fire-9.jpg",
+    desc: "Nhạc giúp trẻ ngủ ngon hơn",
+    video: "videos/video5.mp4",
+  },
 
 ];
 // Giới hạn phim mỗi trang
